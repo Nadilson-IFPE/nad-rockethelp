@@ -1,13 +1,15 @@
 {
   "expo": {
     "name": "rockethelp",
+    "icon": "./src/assets/logo_primary.svg",
     "slug": "rockethelp",
     "version": "1.0.0",
     "assetBundlePatterns": ["**/*"],
     "plugins": ["@react-native-firebase/app"],
     "android": {
       "package": "com.nadilson.rockethelp",
-      "googleServicesFile": "./google-services.json"
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 1
     },
     "ios": {
       "bundleIdentifier": "com.nadilson.rockethelp",

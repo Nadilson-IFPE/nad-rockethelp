@@ -69,6 +69,7 @@ export function SignIn() {
       <Input
         placeholder="E-mail"
         mb={4}
+        autoCapitalize="none"
         InputLeftElement={
           <Icon as={<Envelope color={colors.gray[300]} />} ml={4} />
         }
@@ -77,6 +78,7 @@ export function SignIn() {
       <Input
         mb={8}
         placeholder="Senha"
+        autoCapitalize="none"
         InputLeftElement={<Icon as={<Key color={colors.gray[300]} />} ml={4} />}
         secureTextEntry
         onChangeText={setPassword}
